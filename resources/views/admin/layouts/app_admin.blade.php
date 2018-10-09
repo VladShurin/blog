@@ -36,7 +36,7 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Блог</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Категории</a></li>
+                            <li><a href="{{route('admin.category.index')}}">Категории</a></li>
                             <li><a href="#">Материалы</a></li>
                         </ul>
                     </li>
@@ -78,7 +78,7 @@
         </div>
     </nav>
 
-    <main class="py-4">
+    <main class="py-4 container">
         @yield('content')
     </main>
 </div>
